@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Netflix Sans', sans-serif;
+}
+
+body {
+	background-color: var(--gray);
+}
+
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--gray: #222222;
+	--red: #e32c10;
+
+	/* PADDING FOR BUTTONS */
+	--default: 0.5rem 1.215rem;
+}

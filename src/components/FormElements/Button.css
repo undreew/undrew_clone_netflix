@@ -1,0 +1,19 @@
+.button {
+	background-color: var(--red);
+	border: 1px solid var(--red);
+	border-radius: 4px;
+	color: var(--white);
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 0.9rem;
+
+	text-align: center;
+
+	padding: var(--default);
+	cursor: pointer;
+}
+
+.button.mobile {
+	padding: 0.25rem 0.5rem;
+	font-size: 0.85rem;
+}

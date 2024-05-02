@@ -1,0 +1,14 @@
+.dropdown {
+	background-color: transparent;
+	border: 1px solid var(--white);
+	color: var(--white);
+	font-weight: 200;
+	font-size: 0.9rem;
+
+	padding: 0rem 1.215rem;
+}
+
+.dropdown.mobile {
+	padding: 0rem 0.5rem;
+	font-size: 0.85rem;
+}

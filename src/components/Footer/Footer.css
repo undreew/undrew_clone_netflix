@@ -1,0 +1,59 @@
+.footer {
+	color: #737373;
+	background-color: var(--black);
+
+	padding: 2rem;
+}
+
+.footer--content {
+	width: 100%;
+	max-width: 1190px;
+
+	margin: auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1.75rem;
+
+	padding: 0rem 2rem;
+}
+
+.footer--content__links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem 0rem;
+}
+
+.footer--content__link-container {
+	flex: 1 1 200px;
+}
+
+.footer--content__link,
+.footer--netflix-ph {
+	font-size: 0.75rem;
+}
+
+.footer--content__contact,
+.footer--content__link {
+	color: #737373;
+	text-decoration: none;
+}
+
+.footer--content__contact:hover,
+.footer--content__link:hover {
+	text-decoration: underline;
+}
+
+.footer--dropdown {
+	padding: 0.75rem 1.25rem;
+
+	color: #737373;
+	border-color: #737373;
+}
+
+@media screen and (max-width: 550px) {
+	.footer {
+		padding: 3rem 0rem 2rem 0rem;
+	}
+}

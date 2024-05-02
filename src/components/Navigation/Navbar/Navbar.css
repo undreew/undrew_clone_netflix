@@ -1,0 +1,32 @@
+.navbar {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+
+	padding: 1.25rem 3.25rem;
+	background: transparent;
+}
+
+.navbar--content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar--items {
+	display: flex;
+	gap: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+	.navbar {
+		padding: 1.25rem 2rem;
+	}
+
+	.navbar--items {
+		gap: 1rem;
+	}
+}
